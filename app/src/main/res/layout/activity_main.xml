@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e0e9e9"
+    tools:context="com.ruchika.triviagame.MainActivity">
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_gravity="center"
+        android:autoSizeMaxTextSize="35dp"
+        android:autoSizeTextType="uniform"
+        android:background="#ccffff"
+        android:fontFamily="@font/berkshire_swash"
+        android:padding="15dp"
+        android:text="Dive into Trivia!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textColor="#333366"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <ProgressBar
+        android:id="@+id/mainPbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvNoInt"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/bangers"
+        android:text="No Internet Connection"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnTry"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:background="@android:color/white"
+        android:fontFamily="serif-monospace"
+        android:text="Try Again"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</FrameLayout>

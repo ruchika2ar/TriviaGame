@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Trivia Game</string>
+    <string-array name="category">
+        <item>Science</item>
+        <item>Mathematics</item>
+        <item>History</item>
+        <item>Books</item>
+        </string-array>
+</resources>

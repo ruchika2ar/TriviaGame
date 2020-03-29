@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/acme</item>
+        <item>@font/alfa_slab_one</item>
+        <item>@font/anton</item>
+        <item>@font/atomic_age</item>
+        <item>@font/bangers</item>
+        <item>@font/berkshire_swash</item>
+        <item>@font/bigshot_one</item>
+        <item>@font/bungee_shade</item>
+        <item>@font/cedarville_cursive</item>
+        <item>@font/clicker_script</item>
+        <item>@font/cookie</item>
+        <item>@font/croissant_one</item>
+        <item>@font/delius_swash_caps</item>
+        <item>@font/elsie</item>
+        <item>@font/englebert</item>
+        <item>@font/geo</item>
+        <item>@font/glass_antiqua</item>
+        <item>@font/griffy</item>
+        <item>@font/iceberg</item>
+        <item>@font/jacques_francois</item>
+        <item>@font/jim_nightshade</item>
+        <item>@font/la_belle_aurore</item>
+        <item>@font/londrina_shadow</item>
+        <item>@font/macondo_swash_caps</item>
+        <item>@font/miniver</item>
+        <item>@font/pacifico</item>
+        <item>@font/press_start_2p</item>
+        <item>@font/smythe</item>
+    </array>
+</resources>
